@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+  background-image: url(https://wallpapercosmos.com/w/middle-retina/a/d/f/635042-2560x1440-desktop-hd-philippines-wallpaper-photo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    text-decoration: overline underline;
+	font-family: "copperplate", Papyrus, fantasy;
+}
+
+img{
+	width: 400px;
+	
+}
+
+.section{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.places{
+	border-radius: 50px;
+	width: 400px;
+	padding: 60px;
+	text-align: center;
+	margin: 10px;
+	border: 6px solid red;
+	background-color: yellow;
+}
+
+.footer{
+	background-color: white;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.name{
+	background-color: white;
+}
+
+.desc{
+	background-color: yellow;
+	text-align: center;
+}
+
+.center{
+	display: block;
+	Margin-left: auto;
+	Margin-right: auto;
+	Width: 30%;
+}
